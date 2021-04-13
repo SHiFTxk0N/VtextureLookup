@@ -28,7 +28,7 @@ class jsonparse:
         if var == 'masks':
             maskdata = open(self.maskpath, 'r')
             self.maskJsonObj = json.load(maskdata)
-            print('     >',self.maskdir, len(self.maskJsonObj))
+            print('     >',self.maskdir, 'IDs:', len(self.maskJsonObj))
             print('\n-------------------------------------------\n')
             IDnum = int(input("Enter the ID to look up: "))
             if IDnum < len(self.maskJsonObj):
@@ -42,8 +42,8 @@ class jsonparse:
             self.mJsonObj = json.load(maledata)
             self.fJsonObj = json.load(femaledata)
 
-            print('     >',self.mdir, len(self.mJsonObj))
-            print('     >',self.fdir, len(self.fJsonObj))
+            print('     >',self.mdir, 'IDs:', len(self.mJsonObj))
+            print('     >',self.fdir, 'IDs:', len(self.fJsonObj))
             print('-------------------------------------------\n')
             IDnum = int(input("Enter the ID to look up: "))
 
