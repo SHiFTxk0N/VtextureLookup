@@ -11,7 +11,7 @@ What does this tool do? :
 CATEGORIES:
 
     - accessories  - hair      - legs
-    - shoes        - tops      - torso 
+    - shoes        - tops      - torsos 
     - undershirts  - bracelets - ears
     - glasses      - hats      - watches
     - masks
